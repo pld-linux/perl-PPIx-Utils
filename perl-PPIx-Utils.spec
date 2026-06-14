@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_without	tests		# unit tests
 #
 %define		pdir	PPIx
 %define		pnam	Utils
@@ -12,7 +12,7 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	https://cpan.metacpan.org/authors/id/D/DB/DBOOK/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	https://www.cpan.org/authors/id/D/DB/DBOOK/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	24c275dd1b8b03bd4d21bf849f733b6a
 URL:		https://metacpan.org/dist/PPIx-Utils
 BuildRequires:	perl-ExtUtils-MakeMaker
